@@ -5,7 +5,7 @@
 
 | **Time**   | **Activity**               | **Description**                                                                     | **Engagement Tip**                                  |
 |------------|----------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------|
-| 9:00 AM    | Welcome & Icebreaker       | Fun activity to know participants (e.g., "Tech Bingo").                             | Reward small prizes for participation.             |
+| 9:00 AM    | Welcome & Icebreaker       | Fun activity to know participants                                                  | Reward small prizes for participation.             |
 | 9:30 AM    | Introduction to DevOps     | High-level overview of DevOps concepts, principles, and culture.                   | Use visuals and short videos.                      |
 | 10:30 AM   | Interactive Quiz           | A quick Kahoot quiz on basics (10-15 mins).                                        | Keep it light and competitive.                     |
 | 11:00 AM   | Break                      |                                                                                     |                                                    |
