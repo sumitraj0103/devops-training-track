@@ -20,7 +20,7 @@
 ---
 
 ## Notes:
-- Ensure all required tools (e.g., GitHub, Docker) are installed beforehand.  
+- Request the audience to create free account on GitHub.(https://github.com/)
 - Provide a link to additional resources for each activity in a separate section or file.
 
 ---
