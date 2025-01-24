@@ -3,7 +3,7 @@
 ## Time: 9:00 AM - 5:00 PM  
 ### Theme: *"DevOps: The Bridge Between Development and Operations"*
 
-| **Time**   | **Activity**               | **Description**                                                                     | **Engagement Tip**                                  |
+| **Time**   | **Activity**               | **Description**                                                                     | **Engagement**                                  |
 |------------|----------------------------|-------------------------------------------------------------------------------------|----------------------------------------------------|
 | 9:00 AM    | Welcome & Icebreaker       | Fun activity to know participants                                                  | Reward small prizes for participation.             |
 | 9:30 AM    | Introduction to DevOps     | High-level overview of DevOps concepts, principles, and culture.                   | Use visuals and short videos.                      |
