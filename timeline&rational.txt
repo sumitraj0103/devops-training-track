@@ -1,0 +1,24 @@
+Week 1: Project Setup and Version Control Basics
+Time Estimate: 6-8 hours
+Rationale: As a beginner, understanding version control and setting up the environment may take a little longer. Getting familiar with Git commands (add, commit, status, etc.) and building a "Hello World" project will require hands-on time.
+Week 2: Collaboration with Git and Pull Requests
+Time Estimate: 6-8 hours
+Rationale: This week involves learning Git collaboration techniques and using pull requests (PRs), which might take a few extra hours, especially in understanding the workflow of branching, pushing code, and opening/merging PRs on platforms like GitHub or GitLab.
+Week 3: Continuous Integration (CI) and Artifact Creation
+Time Estimate: 8-10 hours
+Rationale: CI/CD tools like GitHub Actions, Jenkins, or GitLab CI have an initial learning curve for beginners. Setting up a CI pipeline, learning to automate builds, and handling artifacts (such as Docker images) will require additional time for setup and debugging.
+Week 4: Application Infrastructure and Deployment
+Time Estimate: 8-10 hours
+Rationale: Understanding infrastructure and deploying an application (either on a VM or cloud) will likely be challenging for a beginner. You'll need to grasp both deployment concepts and tools, and this might take longer to complete hands-on exercises.
+Week 5: Enhancing Pipelines with Security and Testing
+Time Estimate: 8-10 hours
+Rationale: Integrating security tools like SAST (e.g., Trivy, SonarQube) into the pipeline and adding unit tests adds complexity. Learning about vulnerabilities and fixing failing builds will take time for a beginner, especially with debugging and understanding CI integration.
+Week 6: Infrastructure as Code (IaC)
+Time Estimate: 10-12 hours
+Rationale: Infrastructure as Code (IaC) with tools like Terraform requires a solid understanding of cloud platforms and how to automate infrastructure provisioning. This is a complex concept, especially for beginners, and will require additional time for experimenting with the Terraform scripts and troubleshooting.
+Week 7: Advanced Pipelines
+Time Estimate: 10-12 hours
+Rationale: Setting up infrastructure pipelines for multiple environments adds complexity, as you need to understand how environments vary (e.g., dev, staging, production) and how to manage secrets and configurations securely. This will require significant time, especially for someone new to this concept.
+Week 8: Production-Ready Pipelines
+Time Estimate: 10-12 hours
+Rationale: Finalizing production-ready pipelines, including manual approval steps and blue-green deployments, is more complex. Deploying applications to production-like environments while adhering to best practices is a challenging task for a beginner and might take longer.
