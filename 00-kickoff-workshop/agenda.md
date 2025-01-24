@@ -10,8 +10,8 @@
 | 10:30 AM   | Interactive Quiz           | A quick Kahoot quiz on basics (10-15 mins).                                        | Keep it light and competitive.                     |
 | 11:00 AM   | Break                      |                                                                                     |                                                    |
 | 11:15 AM   | The DevOps Lifecycle       | Explain CI/CD, Infrastructure as Code (IaC), monitoring, etc.                      | Analogies, real-world stories.                     |
-| 12:30 PM   | Lunch Break                |                                                                                     |                                                    |
-| 1:30 PM    | Hands-On Activity 1        | Build a simple CI/CD pipeline using a free tool like GitHub Actions.               | Make it step-by-step; provide templates.           |
+| 12:00 PM   | Lunch Break                |                                                                                     |                                                    |
+| 1:00 PM    | Hands-On Activity 1        | Build a simple CI/CD pipeline using a free tool like GitHub Actions.               | Make it step-by-step; provide templates.           |
 | 3:00 PM    | Break                      |                                                                                     |                                                    |
 | 3:15 PM    | DevOps Tools Showcase      | Demos of tools (e.g., Docker, Kubernetes, Jenkins, Terraform).                     | Invite experts if possible.                        |
 | 4:00 PM    | Interactive Case Study     | Teams brainstorm how DevOps could solve a real-world business problem.             | Use a relatable scenario.                          |
