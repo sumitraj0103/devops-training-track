@@ -17,6 +17,7 @@
 | 4:00 PM    | Interactive Case Study     | Teams brainstorm how DevOps could solve a real-world business problem.             | Use a relatable scenario.                          |
 | 4:45 PM    | Wrap-Up & Q&A              | Summary of the day, roadmap for the 3–4 weeks, address questions.                  | Thank participants with swag or certificates.      |
 
+image.png
 ---
 
 ## Notes:
