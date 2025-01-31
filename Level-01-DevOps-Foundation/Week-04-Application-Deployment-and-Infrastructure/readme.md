@@ -1,9 +1,8 @@
 Topics Covered:
-	Understand the basics of application infrastructure (on-prem, cloud).
-	Deploy the application to the infrastructure.
+	Create a "Hello World" project and build it locally.
+	Understand what binaries are and why they matter.
+	Create a Git repository and understand Git basics.
 Exercises:
-	Learn about infrastructure types and decide where to deploy your app.
-	Manually deploy the application to a basic infrastructure setup (e.g., a local VM, cloud VM, or container).
-	Test the deployed application to confirm it works as expected.
-	Setup CD to deploy Application
-	Run Full CI/CD pipeline
+	Create a "Hello World" project in a chosen programming language.
+	Build and understand the output binaries/artifacts.
+	Initialize a Git repository, add files, commit changes, and learn Git basics (git add, git commit, git log, git status).
