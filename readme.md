@@ -12,8 +12,8 @@
 |--------|------------------------------------------|--------------------|--------|
 | Week-01 | Project Setup and Versioning          | [Name]             | [Status] |
 | Week-02 | Git Collaboration and Workflows       | [Name]             | [Status] |
-| Week-03 | Continuous Integration (CI)              | [Name]             | [Status] |
-| Week-04 | Application Deployment  (CD)           | [Name]             | [Status] |
+| Week-03 | Continuous Integration (CI)              | Saurabh             | [Status] |
+| Week-04 | Application Deployment  (CD)           | Promise          | [Status] |
 
 ### Level-02: DevOps Advanced
 
