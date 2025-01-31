@@ -4,7 +4,7 @@
 
 | Week  | Activity   | Responsible Person | Status |
 |--------|------------|--------------------|--------|
-| -      | Create Presentation deck | Sumit Raj             | In Progress |
+| -      | Create Presentation deck with plan for full day workshop | Sumit Raj             | In Progress |
 
 ### Level-01: DevOps Foundation
 
