@@ -13,8 +13,8 @@
 
 | Week  | Activity                                  | Responsible Person | Status |
 |--------|------------------------------------------|--------------------|--------|
-| Week-01 | Project Setup and Versioning          | [Name]             | [Status] |
-| Week-02 | Git Collaboration and Pull Request       | [Name]             | [Status] |
+| Week-01 | Project Setup and Versioning          | Hakeem           | [Status] |
+| Week-02 | Git Collaboration and Pull Request       | Hakeem          | [Status] |
 | Week-03 | Continuous Integration (CI)              | Saurabh             | [Status] |
 | Week-04 | Application Deployment  (CD)           | Promise          | [Status] |
 
