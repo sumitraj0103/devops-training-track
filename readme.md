@@ -28,7 +28,10 @@
 | Week-08 | Production-Ready Pipelines         | [Name]             | [Status] |
 
 ## Assessment
-### Peer Review Plan
+### Peer Review Plan < Review the work & Exercise>
+-- Review each other <within group>
+-- Mentor will be second reviewer
+-- Create review group and assign mentor to it.
 
 Needs to be discuss
 
