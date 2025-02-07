@@ -1,7 +1,7 @@
 ![DevOps Training](./docs/training-overview.png)
 
 
-## DevOps Training Plan & Target Completion Date: level-00 & Level-01 10th February 2025
+## DevOps Training Plan & Target Completion Date: 10th March 2025
 
 ### Level-00: Kickoff Workshop
 
