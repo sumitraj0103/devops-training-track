@@ -1,8 +1,19 @@
-# Day 8/16 - Azure DevOps with Terraform 🏗
 
-## Check out the video below for Day8 👇
+### Introduction to IaC
 
-[![Day8/16 - Azure DevOps with Terraform](https://img.youtube.com/vi/wq_sn9ey4KM/sddefault.jpg)](https://youtu.be/wq_sn9ey4KM)
+Why "infrastructure as code" is the answer to managing large-scale, distributed systems, cloud-native applications, and service-based architectures.
+infrastructureascode_600x300-3.png
+
+Infrastructure as code is a mainstream pattern for managing infrastructure with configuration files rather than through a graphical user interface or through manual command line script sequences. It allows you to build, change, and manage your infrastructure in a safe, consistent, trackable, and repeatable way by defining resource configurations that you can version (in a version control system like GitHub), reuse, and share.
+
+Terraform is the most commonly used infrastructure as code provisioning engine.
+
+- Benefits of using IaC in cloud infrastructure management.
+
+
+- Comparison with traditional infrastructure management.
+
+
 
 ## How Terraform works
 
@@ -130,14 +141,8 @@ stages:
 ![image](https://github.com/piyushsachdeva/AzureDevOps-Zero-to-Hero/assets/40286378/5d17e417-8a7d-49a6-8c9d-b120e236fde8)
 
 
-
->Note: Sharing some frequently faced issues here:
-
 ### If you are facing error while terraform init/plan or apply as below:
 
-```bash
-[0m[0mThe directory /home/vsts/work/r1/a/'/home/vsts/work/r1/a/' contains no 2024-09-23T09:38:10.6153480Z [31m│[0m [0mTerraform configuration files. 2024-09-23T09:38:10.6153661Z [31m╵[0m[0m 2024-09-23T09:38:10.6153815Z [0m[0m 2024-09-23T09:38:10.6156157Z
-```
 
 #### Solution: Check the below
 Issue could be due to the fact that you have extracted the files in a different folder and running terraform commands from a different folder. Check the below examples:
