@@ -4,7 +4,7 @@
 
 ### Prerequisites
 
-Before you start, ensure you have the following [prerequisites](https://github.com/thomast1906/DevOps-The-Hard-Way-Azure/blob/main/prerequisites.md) in place
+Before you start, ensure you have the following [prerequisites] in place
 1. [ ] Create a Storage Account for Terraform State file [create-terraform-storage.sh](./exercice/create-terraform-storage.sh)
 2. [ ] You need to have Active Azure Subscription
 3. [ ] Access to Azure Devops or GitHub Actions for CI/CD pipeline
