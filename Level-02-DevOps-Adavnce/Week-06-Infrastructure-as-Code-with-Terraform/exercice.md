@@ -14,6 +14,11 @@ Before you start, ensure you have the following [prerequisites](https://github.c
 
 ### Main Sections
 
+0. **Terraform** - Test with [vnet tf files](./exercice/Terraform/vnet/)
+    - [ ] [Execute the TF config files from your local machine]
+    - [ ] [Create basic pipeline to run it from devops/github]
+
+     
 1. **Terraform** - Create the following Azure cloud services
     - [ ] [Create Azure Resource Group]
     - [ ] [Create Azure Virtual Network (VNET)] - You have an Terraform example located in [azure-vnet](./exercice/Terraform/vnet/)
