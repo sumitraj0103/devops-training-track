@@ -15,3 +15,19 @@ To adopt continuous integration, you will need to run your tests on every change
 
 
 In the past, you typically had to install a separate CI server like Bamboo or Jenkins, but now you can find solutions on the Cloud that are much simpler to adopt. For instance, if your code is hosted on Bitbucket Cloud you can use the Pipelines feature in your repository to run tests on every push without the need to configure a separate server or build agents, and with no restriction on concurrency.
+
+## 5 Steps to Setup Continuous Integration
+You should now have a good idea of the concepts behind continuous integration, and we can boil it down to this:
+
+1. Start writing tests for the critical parts of your codebase.
+
+2. Get a CI service to run those tests automatically on every push to the main repository.
+
+3. Make sure that your team integrates their changes everyday.
+
+4. Fix the build as soon as it’s broken.
+
+5. Write tests for every new story that you implement.
+
+
+ While it may look easy, it will require true commitment from your team to be effective. You will need to slow down your releases at the beginning, and you need buy-in from the product owners to make sure that they do not rush developers in shipping features without tests.
