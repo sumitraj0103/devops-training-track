@@ -15,11 +15,18 @@ jobs:
       with:
         python-version: '3.9'
 
+    - name: Navigate to project directory
+      run: cd Level-00-Kickoff-Workshop/hello-devops-project
+
     - name: Install dependencies
-      run: pip install -r requirements.txt
+      run: |
+        cd Level-00-Kickoff-Workshop/hello-devops-project
+        pip install -r requirements.txt
 
     - name: Deploy to Azure
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
         publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
+        package: Level-00-Kickoff-Workshop/hello-devops-project
+
