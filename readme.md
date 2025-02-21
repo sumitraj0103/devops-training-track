@@ -24,8 +24,8 @@
 |--------|----------------------------------------|--------------------|--------|
 | Week-05 | CI/CD Security and Testing         | Mohammad al Rousan            | [Status] |
 | Week-06 | Infrastructure as Code             | Mohammad al Rousan             | [Status] |
-| Week-07 | Advanced CI/CD Pipelines           | [Name]             | [Status] |
-| Week-08 | Production-Ready Pipelines         | [Name]             | [Status] |
+| Week-07 | Advanced CI/CD Pipelines           | Sumit & Mohammad            | [Status] |
+| Week-08 | Production-Ready Pipelines         | Saurabh         | [Status] |
 
 ## Assessment
 ### Peer Review Plan < Review the work & Exercise>
