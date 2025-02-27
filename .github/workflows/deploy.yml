@@ -1,0 +1,32 @@
+name: Deploy to Azure Web App
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.9'
+
+    - name: Navigate to project directory
+      run: cd Level-00-Kickoff-Workshop/hello-devops-project
+
+    - name: Install dependencies
+      run: |
+        cd Level-00-Kickoff-Workshop/hello-devops-project
+        pip install -r requirements.txt
+
+    - name: Deploy to Azure
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
+        publish-profile: ${{ secrets.AZURE_CREDENTIALS }}
+        package: Level-00-Kickoff-Workshop/hello-devops-project
+
