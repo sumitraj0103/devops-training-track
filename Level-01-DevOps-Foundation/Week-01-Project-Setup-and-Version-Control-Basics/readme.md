@@ -20,7 +20,7 @@ This often led to **delays, miscommunication, and software failures** due to a l
 
 DevOps enables formerly siloed roles—development, IT operations, quality engineering, and security—to coordinate and collaborate to produce better, more reliable products.
 
-![Alt text](images/image1.png)
+![](images/image1.png)
 
 **DevOps Processes and Tools**
 
