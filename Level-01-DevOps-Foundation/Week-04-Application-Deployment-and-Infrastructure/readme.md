@@ -13,3 +13,9 @@ Setup your devops environment using the guide in the [Setup file](./set-up.md).
 
 ## Exercises:
 Follow the [exercies](./exercise.md) to guide you through the lab.
+
+
+**Navigation** \
+[Readme](./readme.md)\
+[Setup](./set-up.md)\
+[Exercise](./exercise.md)

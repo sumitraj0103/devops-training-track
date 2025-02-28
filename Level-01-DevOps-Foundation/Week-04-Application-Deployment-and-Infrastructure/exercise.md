@@ -1,8 +1,11 @@
+**Navigation:** 
+1. [Readme](./readme.md)
+2. [Setup](./set-up.md)
+3. [Exercise](./exercise.md)
 
 ## Overview ##
 
 In this lab, you will learn about the release management features available in Azure Pipelines that automate the deployment of applications. These features help development and operations teams integrate with Azure DevOps Server to configure and automate complex deployments of their automated builds to target stages more easily. Development teams can also model their release processes and track approvals, sign-offs, and visualize their release status.
-
 
 <div class="bg-slap"><img src="./exercise-images/mslearn.png" class="img-icon-cloud" alt="MS teams" style="width: 48px; height: 48px;">       
 

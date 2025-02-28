@@ -1,6 +1,13 @@
+**Navigation** 
+1. [Readme](./readme.md)
+2. [Setup](./set-up.md)
+3. [Exercise](./exercise.md)
+
 
 ## Overview ##
 Certain Azure DevOps labs require a preconfigured **Parts Unlimited** team project. This document outlines the required steps to set up the required data.
+
+
 
 <a name="Ex0Task1"></a>
 ### Task 1: Configuring the Parts Unlimited team project ###
