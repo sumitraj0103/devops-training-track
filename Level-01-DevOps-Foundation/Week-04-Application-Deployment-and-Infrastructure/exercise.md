@@ -15,7 +15,7 @@ Want additional learning? Check out the <a href="https://docs.microsoft.com/en-u
 
 - An Azure account (free from [https://azure.com/free](https://azure.com/free)).
 
-- Complete prerequisite task using the instructions from the [Setup file](./set-up.md).
+- Complete the prerequisite task using the instructions from the [Setup file](./set-up.md).
 
 <a name="Exercise1"></a>
 ## Exercise 1: Embracing Continuous Delivery with Azure DevOps ##
