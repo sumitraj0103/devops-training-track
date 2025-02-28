@@ -4,11 +4,11 @@ In this section we cover
   - Creating pipelines for multiple environments (e.g., dev, staging, production).
 
 #### Infra pipeline Architecture
-![DevOps Training](./docs/DevOpsInfraArchitecture.PNG)
+![DevOps Training](../../docs/DevOpsInfraArchitecture.PNG)
 
 
 #### Multi Stage Pipeline Architecture
-![DevOps Training](./docs/DevOpsArchitecture.PNG)
+![DevOps Training](../../docs/DevOpsArchitecture.PNG)
 
 
 #### What is Infra Pipeline
