@@ -1,13 +1,4 @@
----
-title: Azure DevOps Lab Prerequisites
-layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/prereq/
-folder: /labs/azuredevops/prereq/
-version: Lab version - 1.38.0
-updated: Last updated - 13/11/2020
----
-<a name="Overview"></a>
+
 ## Overview ##
 Certain Azure DevOps labs require a preconfigured **Parts Unlimited** team project. This document outlines the required steps to set up the required data.
 

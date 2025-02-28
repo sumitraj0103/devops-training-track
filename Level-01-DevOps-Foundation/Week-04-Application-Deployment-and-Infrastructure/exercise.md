@@ -1,22 +1,13 @@
----
-title: Embracing Continuous Delivery with Azure Pipelines
-layout: page
-sidebar: vsts
-permalink: /labs/azuredevops/continuousdeployment/
-folder: /labs/azuredevops/continuousdeployment/
-version: Lab version - 1.39.0
-updated: Last updated - 21/01/2022
-redirect_from: "/labs/vsts/continuousdeployment/index.htm"
----
-<div class="rw-ui-container"></div>
-<a name="Overview"></a>
 
 ## Overview ##
 
 In this lab, you will learn about the release management features available in Azure Pipelines that automate the deployment of applications. These features help development and operations teams integrate with Azure DevOps Server to configure and automate complex deployments of their automated builds to target stages more easily. Development teams can also model their release processes and track approvals, sign-offs, and visualize their release status.
 
 
-<div class="bg-slap"><img src="./exercise-images/mslearn.png" class="img-icon-cloud" alt="MS teams" style="width: 48px; height: 48px;">Want additional learning? Check out the <a href="https://docs.microsoft.com/en-us/learn/modules/create-release-pipeline/" target="_blank"><b><u> Create a release pipeline in Azure Pipelines </u></b></a> module on Microsoft Learn.</div>
+<div class="bg-slap"><img src="./exercise-images/mslearn.png" class="img-icon-cloud" alt="MS teams" style="width: 48px; height: 48px;">       
+
+
+Want additional learning? Check out the <a href="https://docs.microsoft.com/en-us/learn/modules/create-release-pipeline/" target="_blank"><b><u> Create a release pipeline in Azure Pipelines </u></b></a> module on Microsoft Learn.</div>
 
 
 <a name="Prerequisites"></a>
