@@ -3,11 +3,13 @@ In this section we cover
   - Setting up an infrastructure pipeline.
   - Creating pipelines for multiple environments (e.g., dev, staging, production).
 
-#### Infra pipeline Architecture
+#### Infra pipeline Architecture : Example for reference
+In this design you can see multipple environments for infra deployment.
 ![DevOps Training](../../docs/DevOpsInfraArchitecture.PNG)
 
 
-#### Multi Stage Pipeline Architecture
+#### Multi Stage Pipeline Architecture : Example for reference
+In this design you can see multipple environments for Application deployment.
 ![DevOps Training](../../docs/DevOpsArchitecture.PNG)
 
 
