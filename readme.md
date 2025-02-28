@@ -7,7 +7,7 @@
 
 | Week  | Activity   | Responsible Person | Status |
 |--------|------------|--------------------|--------|
-| -      | Create Presentation deck with plan for full day workshop | Sumit Raj             | In Progress |
+| -      | Create Presentation deck with plan for full day workshop | Sumit Raj             | In Review |
 
 ### Level-01: DevOps Foundation
 
@@ -24,7 +24,7 @@
 |--------|----------------------------------------|--------------------|--------|
 | Week-05 | CI/CD Security and Testing         | Mohammad al Rousan            | [Status] |
 | Week-06 | Infrastructure as Code             | Mohammad al Rousan             | [Status] |
-| Week-07 | Advanced CI/CD Pipelines           | Sumit & Mohammad            | [Status] |
+| Week-07 | Advanced CI/CD Pipelines           | Sumit & Mohammad            | In Review |
 | Week-08 | Production-Ready Pipelines         | Saurabh         | [Status] |
 
 ## Assessment
