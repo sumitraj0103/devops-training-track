@@ -1,10 +1,5 @@
-**Navigation** 
-1. [Readme](./readme.md)
-2. [Setup](./set-up.md)
-3. [Exercise](./exercise.md)
 
-
-## Overview ##
+# Overview #
 Certain Azure DevOps labs require a preconfigured **Parts Unlimited** team project. This document outlines the required steps to set up the required data.
 
 
@@ -59,3 +54,7 @@ Certain Azure DevOps labs require a preconfigured **Parts Unlimited** team proje
 
 1. Leave Visual Studio open for use in your lab.
 
+## Navigation:
+[Readme](./readme.md) |
+[Setup](./set-up.md) |
+[Exercise](./exercise.md)
