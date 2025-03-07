@@ -20,7 +20,7 @@ This often led to **delays, miscommunication, and software failures** due to a l
 
 DevOps enables formerly siloed roles—development, IT operations, quality engineering, and security—to coordinate and collaborate to produce better, more reliable products.
 
-![Alt text](images/image1.png)
+![](images/image1.png)
 
 **DevOps Processes and Tools**
 
@@ -80,7 +80,7 @@ Each of these processes plays a vital role in ensuring a smooth, efficient, and 
 
 **Azure DevOps** - is a **cloud-based set of development tools** provided by **Microsoft** to help teams implement DevOps practices. It is a platform for managing the entire software development lifecycle, offering a range of services to help teams plan, build, test, and deploy software more efficiently.
 
-![Alt text](images/image2.png)
+![](images/image2.png)
 
 To learn more about Azure DevOps - [What is Azure DevOps? - Azure DevOps | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops)
 
@@ -90,7 +90,7 @@ Follow this link on how to create an Azure DevOps project: [Create a project - A
 
 **Version Control** is a system that allows you to manage changes to code or other files over time. It helps developers track and manage changes in a collaborative manner, ensuring that they can work together without overwriting each other's work, roll back to previous versions of files, and maintain a clear history of changes made to a project.
 
-![Alt text](images/image3.png)
+![](images/image3.png)
 
 **Key Concepts of Version Control**
 
@@ -140,8 +140,4 @@ Two of the major version Control tools available is **Github** and **Azure** Rep
 
 - Create **Azure DevOps Repository**  [Create a new Git repo in your project - Azure Repos | Microsoft Learn](https://learn.microsoft.com/en-us/azure/devops/repos/git/create-new-repo?view=azure-devops)
 
-
-## Excercises:
-1. Create a Git Repository of your choice
-2. Clone a repository
 
