@@ -18,5 +18,6 @@
 * Security Scans: Ensuring the code is free from vulnerabilities.
 * Performance Tests: Validating that the application meets performance benchmarks.
 * Approval Steps: Requiring sign-off from stakeholders before proceeding.
+* Change Validation : Validating a change request status for approval.
   
 By implementing gates, organizations can achieve a balance between rapid delivery and maintaining high standards of quality and security. If you have any specific questions about setting up gates in your pipeline, feel free to ask!
