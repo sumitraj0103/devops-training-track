@@ -22,10 +22,12 @@
 
 | Week  | Activity                                | Responsible Person | Status |
 |--------|----------------------------------------|--------------------|--------|
-| Week-05 | CI/CD Security and Testing         | Mohammad al Rousan            | [Status] |
-| Week-06 | Infrastructure as Code             | Mohammad al Rousan             | [Status] |
-| Week-07 | Advanced CI/CD Pipelines           | Sumit & Mohammad            | In Review |
+
+| Week-05 | CI/CD Security and Testing         | Mohammad al Rousan            | [Completed] |
+| Week-06 | Infrastructure as Code             | Mohammad al Rousan             | [Completed |
+| Week-07 | Advanced CI/CD Pipelines           | Sumit & Mohammad            | [Completed ] |
 | Week-08 | Production-Ready Pipelines         | Saurabh         | [Status] |
+
 
 ## Assessment
 ### Peer Review Plan < Review the work & Exercise>
