@@ -1,4 +1,4 @@
-### Task 5: Creating a gated release to the production stage ###
+## Creating a gated release to the production stage ###
 
 1. Return to the Azure DevOps browser tab.
 
