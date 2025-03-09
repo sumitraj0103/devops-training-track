@@ -1,8 +1,8 @@
 ## Introduction
-In this document, we’ll learn:
+In this section, we’ll learn:
 
   - 🐍 How to create a simple Python web application
-  - 🚀 How to deploy it using CI/CD
+  - 🚀 How to deploy it using github Actions CI/CD
     
 Let’s dive into building and automating your Python web app! 🌐✨
    
