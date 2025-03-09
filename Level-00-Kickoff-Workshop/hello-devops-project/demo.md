@@ -93,30 +93,57 @@ If you face authentication errors while cloning, try these URLs:
 ### Define CI/CD Pipeline
 ```yaml
 trigger:
-  - main
+- main  # Or your desired branch
 
 pool:
-  vmImage: 'ubuntu-latest'
+  vmImage: 'ubuntu-latest'  # You can change this if you want to use another VM image
+
+variables:
+  # Optional: Specify the name of the web app to deploy
+  azureSubscription: 'srstesttest2'  # Replace with your Azure service connection
+  appName: 'devopstraining2'  # Replace with your actual Azure Web App name
+  packagePath: '$(Build.ArtifactStagingDirectory)/drop/myapp.zip'  # Package location
 
 steps:
+
+# Step 1: Setup Python environment
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.x'
+    versionSpec: '3.x'  # Set this to your desired Python version
     addToPath: true
 
-- script: pip install -r requirements.txt
-  displayName: 'Install Dependencies'
+# Step 2: Install dependencies
+- script: |
+    python -m venv venv  # Create a virtual environment
+    source venv/bin/activate  # Activate the virtual environment
+    pip install -r requirements.txt  # Install dependencies from requirements.txt
+  displayName: 'Install Python Dependencies'
 
-- script: python -m unittest discover
-  displayName: 'Run Tests'
+# Step 3: Create a deployment package
+- script: |
+    # Ensure the target directory exists
+    mkdir -p $(Build.ArtifactStagingDirectory)/drop
+    
+    # Zip the project files, excluding unnecessary files like .git and .venv
+    zip -r $(Build.ArtifactStagingDirectory)/drop/myapp.zip . -x "*.git*" -x "venv/*"
+  displayName: 'Create Deployment Package'
 
+# Step 4: Publish artifacts (the zip file containing the app)
+- task: PublishBuildArtifacts@1
+  inputs:
+    artifactName: 'drop'  # Name of the artifact to be published
+    publishLocation: 'Container'
+  displayName: 'Publish Artifacts'
+
+# Step 5: Deploy to Azure Web App
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'devops-training'
-    appName: 'devopstraining'
-    package: '$(System.DefaultWorkingDirectory)/**/*.zip'
-    appType: webAppLinux
+    azureSubscription: $(azureSubscription)  # Use the Azure service connection
+    appName: $(appName)  # Azure Web App name
+    package: $(packagePath)  # Path to the zip file
+    # appType: webAppLinux  # Assuming you're using Linux-based web hosting, otherwise change to webApp
   displayName: 'Deploy to Azure Web App'
+
 ```
 
 ## 10. Run and Show After Making a Small Change
