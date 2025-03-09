@@ -6,7 +6,7 @@
 
 1. As release pipelines get more sophisticated, it becomes important to define gates to ensure quality throughout the release pipeline. Since the next stage we're deploying to is production, we'll need to be sure to include both automated quality gates as well as a manual approver gate. Return to the release pipeline browser tab and click **Clone** in the **QA** stage. Since the production stage is virtually the same, we can reuse almost all of the existing configuration.
 
-    ![](exercise-images/056.png)
+    ![](Level-01-DevOps-Foundation/Week-04-Application-Deployment-and-Infrastructure/exercise-images/056.png)
 
 1. The new stage is added after the current one, which is what we want. However, before we can consider the QA deployment successful, we'll need to define a post-deployment condition. Click the **Post-deployment conditions** button on the **QA** stage.
 
