@@ -101,7 +101,12 @@ You should see **"Hello, World!"** displayed on the page.
 ### **1️⃣ Configure Azure Web App**
 1. **Go to Azure Portal → App Services → Create Web App**
 2. Set **Runtime Stack** to `Python 3.10`
-3. Create a **Service Connection** in Azure DevOps
+3. Make sure to select the enable basic authentication under deployment section
+<img width="548" alt="image" src="https://github.com/user-attachments/assets/01c70e2e-31f5-4dd7-989a-cc2bafa40acb" />
+
+   <img width="551" alt="image" src="https://github.com/user-attachments/assets/8142ff07-8601-4ef1-9d25-e5fede4c393b" />
+
+5. Create a **Service Connection** in Azure DevOps
 
 ### **2️⃣ Set Up Azure DevOps Pipeline**
 1. **Go to Azure DevOps → Pipelines → New Pipeline**
