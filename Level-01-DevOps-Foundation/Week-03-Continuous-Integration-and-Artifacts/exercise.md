@@ -111,10 +111,10 @@ jobs:
 ### 6. Add DockerHub Credentials as Secrets
 In the above workflow, we're using DockerHub for image storage. 
 Please create an account on dockerhub and create a personnal access token (profile -> Account settings -> Personal access tokens). 
-Also, please create/reuse your repository in dockerhub value "my-python-app" from the code above (highlight in green) 
+Also, please create/reuse your repository in dockerhub ("my-python-app" in our case used for the example)
 To push images, you need to add your DockerHub credentials as GitHub secrets:
 
-1. Go to **Settings > Secrets and variables > actions > New repository secret.**
+1. Go to **Settings(of the repository) > Secrets and variables > actions > New repository secret.**
 2. Add secrets DOCKER_USERNAME(not your email) and DOCKER_PASSWORD(the access key previously created).
 These secrets will allow the GitHub Actions workflow to authenticate with DockerHub.
 
