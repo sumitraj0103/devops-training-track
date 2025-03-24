@@ -38,3 +38,7 @@
 Needs to be discuss
 
 ## Create Feature Branch for each workstream and after review done we can merge to main Branch
+
+Next Improvement Area:
+1. Azure Access
+2. Azure Connection Limitation 
