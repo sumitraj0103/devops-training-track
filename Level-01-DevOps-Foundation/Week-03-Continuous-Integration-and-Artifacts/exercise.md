@@ -83,33 +83,39 @@ jobs:
       # Optionally push the Docker image to DockerHub (replace with your own credentials)
       - name: Push Docker image to DockerHub
         run: |
-          docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
+          echo ${{ secrets.DOCKER_PASSWORD }} | docker login -u ${{ secrets.DOCKER_USERNAME }} --password-stdin
           docker tag my-python-app:latest ${{ secrets.DOCKER_USERNAME }}/my-python-app:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/my-python-app:latest
 
       # Store Docker image as an artifact (optional)
       - name: Save Docker image as artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: my-python-app-image
           path: ./my-python-app.tar
 
       # Build Binary (optional if you want to generate a binary instead of a Docker image)
+      - name: Install PyInstaller
+        run: |
+          pip install pyinstaller
       - name: Build Binary (optional)
         run: |
           pyinstaller --onefile hello.py
       - name: Upload Binary as artifact (optional)
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: my-python-binary
           path: dist/hello
 ```
 
 ### 6. Add DockerHub Credentials as Secrets
-In the above workflow, we're using DockerHub for image storage. To push images, you need to add your DockerHub credentials as GitHub secrets:
+In the above workflow, we're using DockerHub for image storage. 
+Please create an account on dockerhub and create a personnal access token (profile -> Account settings -> Personal access tokens). 
+Also, please create/reuse your repository in dockerhub ("my-python-app" in our case used for the example)
+To push images, you need to add your DockerHub credentials as GitHub secrets:
 
-1. Go to **Settings > Secrets > New repository secret.**
-2. Add secrets DOCKER_USERNAME and DOCKER_PASSWORD.
+1. Go to **Settings(of the repository) > Secrets and variables > actions > New repository secret.**
+2. Add secrets DOCKER_USERNAME(not your email) and DOCKER_PASSWORD(the access key previously created).
 These secrets will allow the GitHub Actions workflow to authenticate with DockerHub.
 
 ### 7. Pushing Code to GitHub
